@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sub1MMProject:war exploded">
+    <output-path>$PROJECT_DIR$/sub1MMProject/target/com-byteslounge-war-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sub1MMProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="com-byteslounge-lib-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="subMMProject" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/sub1MMProject/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sub1MMProject/web/Web" />
+    </root>
+  </artifact>
+</component>
